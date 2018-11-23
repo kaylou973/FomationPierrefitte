@@ -1,0 +1,53 @@
+* {
+    text-align: right;
+}
+
+body{ 
+    background: #f5deb3;
+}
+
+header{
+    background-color: yellow;
+    color: #fff;
+    height: 90px;
+    text-align: center;
+}
+
+nav{
+    background:rgb(137, 247, 247);
+    color: #fff;
+    height: 64px;
+    text-align: center;
+}
+
+
+
+.bloc{
+    background: rgb(141, 47, 185);
+    height: 400px;
+    width: 100%;
+}
+
+article{
+    background: rgb(191, 137, 241);
+    height: 800px;
+    width: 80%;
+    position: absolute;
+    top: 162px;
+    left: 190px;
+}
+
+.bloc2{
+    background: rgb(15, 134, 4);
+    height: 400px;
+    width: 100%; 
+}
+
+footer{
+    background:yellow;
+    color: #fff;
+    height: 64px;
+    margin: 0;
+    padding: 16px 14px;
+    text-align: center;
+}

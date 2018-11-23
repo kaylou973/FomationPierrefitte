@@ -1,0 +1,19 @@
+body{background:url(https://i.pinimg.com/originals/37/44/f3/3744f394dcac52ff13f2fab9c60c9636.jpg) no-repeat center /100% 100% ; 
+/* background-repeat: no-repeat; */
+font-family: 'Indie-Flower', cursive ;
+
+}
+h1 , h2 , h3{font-family: 'josephine-sans', sans-serif ; 
+}
+
+.bloc{
+    background-color: red;
+    opacity: .5;
+    margin: auto;
+    width: 40%;
+
+}
+
+.bloc2{
+    margin: 30%;
+}

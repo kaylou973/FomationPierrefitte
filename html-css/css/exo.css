@@ -1,0 +1,37 @@
+* {
+    text-align: right;
+}
+
+body{ 
+    background: #f5deb3;
+}
+
+header{
+    background-color: yellow;
+    color: #fff;
+    height: 90px;
+    text-align: center;
+}
+
+nav{
+    background:rgb(137, 247, 247);
+    color: #fff;
+    height: 64px;
+    text-align: center;
+}
+
+section{
+    background: #f5deb3;
+    height: 550px;
+}
+
+footer{
+    background:yellow;
+    color: #fff;
+    height: 64px;
+    margin: 0;
+    padding: 16px 14px;
+    text-align: center;
+}
+
+
