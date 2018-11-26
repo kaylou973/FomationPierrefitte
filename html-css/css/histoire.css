@@ -1,0 +1,30 @@
+body{
+    background-color: wheat;
+    text-align: center;
+
+}
+
+header{
+
+}
+
+.h1{
+    background: url(../../html-css/Mini_site_guyane/css/image/guyane-1600.jpg) no-repeat right ;
+    height: 362Px;
+    padding: 0px 600px;
+    padding-left: 20px;
+}
+
+.h2{
+    background: url(../../html-css/Mini_site_guyane/css/image/arton103249.png) no-repeat left ;
+    height: 362Px;
+    padding: 0px 49px;
+    padding-left: 994px;
+}
+
+footer{
+    height: 45px;
+    margin: 127px;
+    padding: 31px;
+
+}

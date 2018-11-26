@@ -1,0 +1,14 @@
+*{
+    text-align: right;
+}
+
+body{
+    background: wheat;
+}
+
+header{
+    background-color: #900c3f;
+    color: #fff;
+    height: 300px;
+    background: url(https://i.pinimg.com/originals/79/1f/d0/791fd01c234c406ccc1b3a1539fdc3d7.jpg) no-repeat center;
+}
