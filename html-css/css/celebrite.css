@@ -1,0 +1,11 @@
+body{
+    background: wheat;
+    text-align: center;
+}
+
+.chris{
+    background: url(../../html-css/Mini_site_guyane/css/image/christiane-taubira-250.jpg);
+    height: 300Px;
+    padding: 0;
+    padding-left: 0;
+}

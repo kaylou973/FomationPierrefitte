@@ -1,0 +1,30 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 50%;
+    margin: auto;
+    background: tan;
+}
+
+thead{
+    background: rgb(189, 168, 130);
+    border: 3px solid wheat;
+
+}
+
+tbody{
+    background:wheat;
+}
+
+th{
+    width: 25%;
+    border: 3px solid wheat;
+    font-size: 100%;
+    padding: 5px;
+}
+
+td{
+    padding: 5px;
+}
