@@ -1,0 +1,62 @@
+body{
+    width: 90%;
+    margin: 10px auto;
+    font-family: cursive;
+}
+
+#contenu{
+    background: red;
+    border: 2px solid black;
+}
+
+header, footer{
+    height: 80px;
+    color: white;
+    text-align: center;
+    background: #8e3557;
+}
+
+nav{
+    height: 40px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 6px;
+    background: #4a1a2c;
+}
+
+section{
+    height: 500px;
+    text-align: center;
+    border:  20px solid #fff;
+    background: white; 
+
+}
+
+.bet1, .bet3{
+    float: left;
+    height: 50%;
+    width: 50%;
+}
+.bet2, .bet4{
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
+.bet1{
+    background: #4a1a2c;
+}
+.bet2{
+    
+    background: #787746;
+}
+.bet3{
+    background: #e6e2af;
+}
+.bet4{
+    background: #add8e6;
+}
+
+p{
+    margin: 0;
+}
