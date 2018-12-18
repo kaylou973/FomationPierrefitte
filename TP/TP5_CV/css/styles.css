@@ -59,18 +59,19 @@ nav a{
 
 .menu-ind:hover{
     border-top: 5px solid #4C8;
-    background: rgba(64, 200, 130, 0.15)
+    background: rgba(64, 200, 130, 0.15);
 }
 .menu-exp:hover{
     border-top: 5px solid #F1DC4F;
-    background: rgba(241, 211, 79, 0.15)
+    background: rgba(241, 211, 79, 0.15);
 }
 .menu-loi:hover{
     border-top: 5px solid #0070BB;
-    background: rgba(000, 112, 192, 0.15)
+    background: rgba(000, 112, 192, 0.15);
 }
 .menu-con:hover{
-je dispo    background: rgba(228, 77, 38, 0.15)
+    border-top: 5px solid #E44D26;
+    background: rgba(228, 77, 38, 0.15);
 }
 
 nav li:hover {
@@ -147,9 +148,29 @@ section{
     background: rgba(000, 112, 192, 0.15);
 }
 #recommandation{
+    border-top: 5px solid #E44D26;
   background: rgba(228, 77, 38, 0.15);
 }
 
 img{
     width: 300px;
+}
+
+#auto{
+    border-top: 5px solid rgb(133, 158, 240);
+    background: rgba(81, 128, 216, 0.15);
+}
+
+#sport{
+    border-top: 5px solid rgb(51, 65, 190);
+    background: rgba(57, 66, 190, 0.288);
+}
+
+#chien{
+    border-top: 5px solid rgb(21, 19, 146);
+    background: rgba(000, 112, 192, 0.15);
+}
+
+#cordo{
+    text-align: center;
 }
