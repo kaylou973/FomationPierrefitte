@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+}
+.parallax{
+   /*l'image de fond*/
+   background:url(../img/caraibes_martinique_boucaniers.jpg);
+   /*la hauteur de l'image*/
+   height: 100%;
+   /*les propriétés qui vont créé l'effet parallax au scroll*/
+   background-attachment: fixed; /*attachementl'image par rapport à l'écran afin d'eviter qu'elle ne defile au moment du scroll*/
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+ }
+ .parallax-2{
+    /*l'image de fond*/
+    background:url(../img/pc.jpg);
+    /*la hauteur de l'image*/
+    height: 100%;
+    /*les propriétés qui vont créé l'effet parallax au scroll*/
+    background-attachment: fixed; /*attachementl'image par rapport à l'écran afin d'eviter qu'elle ne defile au moment du scroll*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .parallax-3{
+    /*l'image de fond*/
+    background:url(../img/Matrix-revolution.jpg);
+    /*la hauteur de l'image*/
+    height: 100%;
+    /*les propriétés qui vont créé l'effet parallax au scroll*/
+    background-attachment: fixed; /*attachementl'image par rapport à l'écran afin d'eviter qu'elle ne defile au moment du scroll*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+.parallax-4{
+   /*l'image de fond*/
+   background:url(../img/ciel.jpg);
+   /*la hauteur de l'image*/
+   height: 100%;
+   /*les propriétés qui vont créé l'effet parallax au scroll*/
+   background-attachment: fixed; /*attachementl'image par rapport à l'écran afin d'eviter qu'elle ne defile au moment du scroll*/
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+ }
+div.scroll{
+     height: 280px;
+     font-size: 36px;
+}
+
+div.scroll{
+    margin: 0;
+}
+#scroll-1{
+    background-image:url(../img/thumb-1920-515590.jpg)
+  }
+  
+  #scroll-2{
+    background-image: url('../img/woodPlank.jpg');
+  }
+  
+  #scroll-3{
+    background-image:url(../img/sans-titre.png)
+ }
