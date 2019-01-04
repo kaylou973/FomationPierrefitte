@@ -2,4 +2,21 @@
     margin: 0;
     padding: 0;
 }
-
+.container{
+    margin: auto;
+    padding: initial;
+    width: 70%;
+}
+.G{
+float: left;
+width: 50%;
+height: 100%;
+}
+.D{
+float: left;
+}
+.nav, li{
+    padding: 50%;
+    margin: 60%;
+    width: 40%;
+}

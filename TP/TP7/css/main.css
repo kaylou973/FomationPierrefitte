@@ -37,3 +37,111 @@
     font-style: normal;
 
 }
+/*global*/
+body{
+    background: rgb(207, 205, 205)
+}
+header ul.social li a,
+.main .work a . caption,
+header nav ul li a{
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    -ms-transition:all .1s linear;
+}
+h1, h2, h3, h4, h5, h6,{
+    color: #4b4848;
+    letter-spacing: 1px;
+    font-family: 'raleway-regular' serif;
+}
+.clearffix::before,
+.clearffix::after{
+    content: "";
+    display: table;
+}
+.clearffix::after{
+    clear: both;
+}
+/*hearder*/
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    min-height: 100%;
+    padding: 0 0 0 50px;
+    background: #fff;
+    overflow: hidden; /*gére les dépassement du conteneur c'est à dire qu'elle masque le contenu si celui-ci dépasse (voir https://developer.mozilla.org/frdocs/web/css/overflow)*/
+    z-index: 9999;
+}
+header .logo{
+    margin-top: 100px;
+}
+header nav ul{
+    display: block;
+    overflow: hidden;
+    margin-top: 100px;
+    list-style: none;
+}
+header nav ul li{
+    display: block;
+   margin-bottom: 30px;
+}
+header nav ul li a{
+    color: #454545;
+   font-family: 'ralewa-regular',arial;
+   font-size: 14px;
+   text-decoration: none;
+   letter-spacing: 1px;
+}
+header nav ul li a:hover,
+header nav ul li a:selected{
+    position: absolute;
+    bottom: 50px;
+}
+ header ul.social{
+     list-style: none;
+     margin-bottom: 5px;
+ }
+ header ul.social li{
+     display: block;
+     float: left;
+     position: relative;
+     margin: 0 15px 15px 0;
+ }
+ header ul.social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/sm.png) no-repeat;
+    background-position: 0 0;
+}
+header ul.social li a:hover{
+    background: url(../img/sm.png);
+}
+header ul.social li a.google{
+    /*hearder ul.social li a.google:hover*/
+    background-position: 31px+
+     0;
+
+}
+header ul.social li a.fb{
+    /*hearder ul.social li a.fb:hover*/
+    background-position: 0 0;
+
+}
+header ul.social li a.behance{
+    /*hearder ul.social li a.behance:hover*/
+    background-position: 0 0;
+
+}
+header ul.social li a.rss{
+    /*hearder ul.social li a.rss:hover*/
+    background-position: 0 0;
+
+}
+
+
+
