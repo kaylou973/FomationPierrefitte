@@ -111,16 +111,17 @@
 // si l'utilisateur clique sur oui, afficher une image
 // sinon, afficher une autre image
 
-var confirmation = confirm("challenge");
+// var confirmation = confirm("challenge");
 
-if(confirmation){
-    document.body.style.backgroundImage= "Url('c:/wamp64/www/FormationPierrefitte/javascript/img/telechargement.jpg)";
-    document.body.style.backgroundColor= "#f3f3f3";
-{else}
-alert('false')
-}
+// if(confirmation){
+//     document.body.style.backgroundImage= "Url('c:/wamp64/www/FormationPierrefitte/javascript/img/telechargement.jpg)";
+//     document.body.style.backgroundColor= "#f3f3f3";
+// {else}
+// alert('false')
+// }
 
 // EXERCICE 7
 // demander un nombre entre 0 et 5 à l'utilisateur
 // si l'utilisateur n'entre pas un nombre entre 0 et 5, le signaler par une alert
 // si le nombre est valide, l'afficher en toutes lettres (1 => "un")
+
