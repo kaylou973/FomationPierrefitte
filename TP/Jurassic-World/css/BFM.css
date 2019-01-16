@@ -113,3 +113,14 @@ hr {
   margin-left: 773px;
   text-align: -webkit-match-parent;
 }
+.part{
+  position: relative;
+  top: -3px;
+  margin-left: 464px;
+  height: 232px;
+}
+.logo2{
+  top: 27px;
+  margin-left: 134px;
+  height: 202px;
+}
